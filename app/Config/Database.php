@@ -187,6 +187,63 @@ class Database extends Config
         ],
     ];
 
+    public array $login = [
+        'DSN'          => '',
+        'hostname'     => 'localhost',
+        'username'     => 'root',
+        'password'     => '',
+        'database'     => 'gpac-certeca',
+        'DBDriver'     => 'MySQLi',
+        'DBPrefix'     => '',
+        'pConnect'     => false,
+        'DBDebug'      => true,
+        'charset'      => 'utf8',
+        'DBCollat'     => 'utf8_general_ci',
+        'swapPre'      => '',
+        'encrypt'      => false,
+        'compress'     => false,
+        'strictOn'     => false,
+        'failover'     => [],
+        'port'         => 3306,
+        'numberNative' => false,
+        'dateFormat'   => [
+            'date'     => 'Y-m-d',
+            'datetime' => 'Y-m-d H:i:s',
+            'time'     => 'H:i:s',
+        ],
+        'autoinit' => true,
+        'stricton' => false,
+    ];
+
+    public array $gpac = [
+        'DSN'          => '',
+        'hostname'     => 'SRVERP00.ceragni.local',
+        'username'     => 'MediaSis',
+        'password'     => 'MS920527',
+        'database'     => 'GPAC-CERTECA',
+        'DBDriver'     => 'sqlsrv',
+        'DBPrefix'     => '',
+        'pConnect'     => false,
+        'DBDebug'      => true,
+        'charset'      => 'utf8',
+        'DBCollat'     => 'utf8_general_ci',
+        'swapPre'      => '',
+        'encrypt'      => false,
+        'compress'     => false,
+        'strictOn'     => false,
+        'failover'     => [],
+        'port'         => 1433,
+        'numberNative' => false,
+        'dateFormat'   => [
+            'date'     => 'Y-m-d',
+            'datetime' => 'Y-m-d H:i:s',
+            'time'     => 'H:i:s',
+        ],
+        'autoinit' => true,
+        'stricton' => false,
+        'encrypt' => false,
+    ];
+
     public function __construct()
     {
         parent::__construct();
