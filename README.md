@@ -1,0 +1,2 @@
+# wyipist
+Terminal de Stocks
